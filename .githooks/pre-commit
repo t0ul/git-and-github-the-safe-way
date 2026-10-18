@@ -1,0 +1,4 @@
+#!/bin/sh
+# Refuse the commit if a staged change holds a credential that verifies against its provider.
+# Chapter 4 of Git and GitHub the Safe Way. Enable once per clone: git config core.hooksPath .githooks
+exec trufflehog git file://. --since-commit HEAD --results=verified,unknown --fail --trust-local-git-config
