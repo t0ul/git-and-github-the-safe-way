@@ -1,6 +1,6 @@
 # Pancakes
 
-Serves 4.
+Serves 4, or 2 hungry people.
 
 ## Ingredients
 
